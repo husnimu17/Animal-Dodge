@@ -3,7 +3,7 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.animaldodge.AndroidApp"
+        id        = "com.lionslead.animaldodge"
         version   = "1.0.0">
 
     <name>Animal Dodge</name>
@@ -19,6 +19,8 @@
     
   
     <icon src="icon.png" />
+    <platform name="android" />
+    <content src="index.html"/>
    
 
 
